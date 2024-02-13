@@ -1,0 +1,26 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /subdirectory
+    RewriteRule ^index\.html$ - [L]
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-l
+    RewriteRule . /index.html [L]
+    </IfModule>
+
+    
+    Options -MultiViews
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.html [QSA,L]
+
+Options -MultiViews
+RewriteEngine On
+
+# Serve files from the "static" directory directly
+RewriteCond %{REQUEST_URI} ^/static/
+RewriteRule ^static/(.*)$ build/static/$1 [L]
+
+# Handle client-side routing
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ build/index.html [QSA,L]
