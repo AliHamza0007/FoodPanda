@@ -7,8 +7,8 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-foodpanda_production
 node_modules
+foodpanda_production
 dist
 dist-ssr
 *.local
