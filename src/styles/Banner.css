@@ -1,0 +1,195 @@
+.bannerImg {
+  object-fit: cover;
+  object-position: left center;
+  position: absolute;
+}
+
+.locationSearch .input-group {
+  height: 50px !important;
+}
+
+.locationSearch .form-floating > label::after {
+  background: transparent !important;
+}
+
+.locationSearch .btn-find-food {
+  color: white !important;
+  background: #d70f64 !important;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.locationSearch .btn-find-food:hover {
+  color: white;
+  background: #d70f64 !important;
+ 
+  transform: scale(1) !important;
+}
+.bg-light {
+  background: #f7f7f7 !important;
+}
+@media screen and (min-width: 1025px) {
+  .banner .heading {
+    font-size: 40px !important;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .locationSearch .btn-find-food {
+    transform: scale(0.9) !important;
+
+    width: 130px !important;
+    height: 52px !important;
+  }
+  .bannerImg {
+    right: -18% !important;
+    width: 60% !important;
+    bottom: 0 !important;
+    top: 0 !important;
+    height: 100% !important;
+  }
+  .locationSearch {
+    width: 85% !important;
+  }
+  .banner .heading {
+    font-size: 32px !important;
+  }
+}
+
+/* ///city Banner css */
+@media screen and (min-width: 1025px) {
+  .cityBannerImg {
+    position: absolute;
+    top: -20%;
+    right: 0;
+    width: 42%;
+    height: 400px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .cityBannerImg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 410px !important;
+    height: 285px !important;
+  }
+  .city-heading {
+    font-size: 31px !important;
+    padding: 30px 0px;
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .banner .heading {
+    font-size: 30px !important;
+  }
+  .locationSearch {
+    width: 100% !important;
+  }
+  .locationSearch .btn-find-food {
+    transform: scale(1) !important;
+    width: 100% !important;
+  }
+  .banner {
+    width: 100%;
+  }
+  .cityBannerImg {
+    position: absolute;
+    top: 0;
+    right: -5%;
+    width: 410px !important;
+    height: 285px !important;
+  }
+  .city-heading {
+    font-size: 23px !important;
+    padding: 50px 0px;
+    padding-right: 80px;
+    margin-bottom: 20px;
+  }
+  /* ///city Banner css */
+}
+@media screen and (min-width: 768px) {
+  .locationSearch .btn-find-food {
+    transform: scale(1);
+    width: 100%;
+  }
+  .locationSearch {
+    width: 100%;
+  }
+  .banner .heading {
+    font-size: 25px;
+  }
+  .bannerImg {
+    right: 0;
+    width: 50%;
+    height: 45%;
+    top: 6%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .locationSearch .input-group-text {
+    font-size: 13px;
+  }
+  .locationSearch .form-floating > label {
+    font-size: 12px;
+    top: 25% !important;
+  }
+
+  .locationSearch .btn-find-food {
+    transform: scale(1);
+    width: 100%;
+  }
+  .locationSearch {
+    width: 100%;
+  }
+  .banner .heading {
+    padding-right: 100px;
+    font-size: 15px;
+  }
+  .bannerImg {
+    right: 0;
+    width: 50%;
+    height: 45%;
+    top: 6%;
+  }
+  .cityBannerImg {
+    position: absolute;
+    top: -5%;
+    right: -9%;
+    width: 250px !important;
+    height: 190px !important;
+  }
+  .city-heading {
+    font-size: 20px !important;
+    padding: 0px 0px;
+    padding-right: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  /* ///city Banner css */
+}
+@media screen and (max-width: 400px) {
+  .cityBannerImg {
+    position: absolute;
+    top: -20%;
+    right: -27%;
+    width: 310px !important;
+    height: 285px !important;
+  }
+}
+@media screen and (max-width: 375px) {
+  .cityBannerImg {
+    position: absolute;
+    top: -20%;
+    right: -47%;
+    width: 310px !important;
+    height: 285px !important;
+  }
+  .city-heading {
+    font-size: 20px !important;
+    padding: 0px 0px;
+    padding-right: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+}

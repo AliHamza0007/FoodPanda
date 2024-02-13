@@ -1,0 +1,50 @@
+.food-modal .modal-content {
+    width:100%!important;
+}
+.single-food-img{
+height:270px;
+width:100%;
+}
+.food-data .height-overflow-single-food{
+    height:400px;
+    position: relative;
+    overflow: auto;
+}
+.food-modal .close{
+    z-index: 22;
+}
+.quantity-button{
+
+    height:30px;
+    width:30px;
+    border: 1px solid rgb(225, 222, 222);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.food-modal {
+    top: 60% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+}
+@media screen and (max-width:700px){
+
+    .food-modal {
+        top: 75% !important;
+        left: 55% !important;
+        transform: translate(-50%, -50%) !important;
+    }
+    .food-modal .modal-content {
+        width:90%!important;
+        
+    }.single-food-img{
+        height:200px;
+        width:100%;
+        }
+        .food-data .height-overflow-single-food{
+            height:300px;
+            position: relative;
+            overflow: auto;
+        }
+}

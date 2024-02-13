@@ -1,0 +1,69 @@
+.cityNav p {
+  font-size: 14px;
+  font-weight: 600;
+}
+.border-bottom-hover {
+  border-bottom: 1px solid;
+}
+.border-bottom-hover:hover {
+  border-bottom: 3px solid;
+}
+
+/* card css city restaurants */
+
+.restaurants .card .card-img-top {
+  height: 150px;
+  transition: all 0.5s ease;
+}
+.restaurants .card:hover .card-img-top {
+  transform: scale(1.02);
+  transition: all 0.5s ease;
+}
+
+.restaurants > .card-body {
+  z-index: 44;
+}
+.restaurants .img-badge {
+  color: white;
+  background: #ed2178;
+  font-size: 12px;
+  position: absolute;
+  border-radius: 5px;
+  display: inline;
+  padding: 2px 5px;
+}
+.restaurants .badge1 {
+  top: 13px;
+}
+.restaurants .badge2 {
+  top: 40px;
+}
+.restaurants .favIcon .fa-heart {
+  position: absolute;
+  z-index: 22;
+  top: 35px;
+  right: 33px;
+  font-size: 20px;
+}
+.restaurants .favIcon .fas {
+  position: absolute;
+  top: 37px;
+  right: 36px;
+  z-index: 22;
+
+  font-size: 15px;
+}
+.restaurants .favIconbg {
+  background: #ffffff;
+  z-index: 22;
+
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  border-radius: 50%;
+  height: 26px;
+  width: 26px;
+}
+.restaurants .favIcon:hover .favIconbg {
+  transform: scale(1.2);
+}

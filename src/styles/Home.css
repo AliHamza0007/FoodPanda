@@ -1,0 +1,74 @@
+.preFood {
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 540px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.boxStartedDiv {
+  position: absolute;
+  width: 60%;
+  top: 65%;
+  left: 3%;
+}
+
+.boxStartedDiv2 {
+  position: absolute;
+  width: 60%;
+  top: 20%;
+  left: 3%;
+}
+.boxStarted .btn-pink {
+  padding: 15px;
+}
+.barcode {
+  width: 90px;
+  height: 90px;
+  border: 1px solid white;
+}
+.appImg {
+  position: absolute;
+  top: -20%;
+  bottom: -5%;
+  right: 0;
+  width: 48%;
+  height: 370px;
+}
+.orderSummery h4 {
+  font-weight: bold !important;
+}
+@media screen and (max-width: 1023px) {
+  .boxStartedDiv {
+    width: 60%;
+    top: 63%;
+    left: 3%;
+  }
+  .boxStartedDiv2 {
+    width: 60%;
+    top: 17%;
+    left: 3%;
+  }
+  .appImg {
+    top: 0;
+    right: -2%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .boxStartedDiv {
+    width: 90%;
+    top: 47%;
+    left: 3%;
+  }
+  .boxStartedDiv2 {
+    width: 90%;
+    top: 10%;
+    left: 3%;
+  }
+  .appImg {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+}

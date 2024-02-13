@@ -1,0 +1,10 @@
+.favorite .btn-outline-pink {
+  transform: scale(1) !important;
+  padding: 12px 17px !important;
+  font-size: 14px !important;
+  transition: all 0.5s ease !important;
+}
+.favorite .btn-outline-pink:hover {
+  border-color: white !important;
+  transition: all 0.5s ease !important;
+}

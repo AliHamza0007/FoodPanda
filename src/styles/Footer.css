@@ -1,0 +1,58 @@
+.footer__social .icon {
+  height: 80px;
+  width: 80px;
+  padding: 4px;
+  font-size: 20px;
+  border-radius: 50%;
+  border: 1px solid;
+  color: rgb(197, 190, 190);
+}
+.footer__social .icon:hover {
+  cursor: pointer;
+  color: #ff2b85 !important;
+  fill: #ff2b85 !important;
+  transition: all 0.5s ease;
+}
+
+.footer__logo svg:hover {
+  cursor: pointer;
+  color: #ff2b85 !important;
+  fill: #ff2b85 !important;
+  transition: all 0.5s ease;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #2e2d2d;
+  font-size: 14px;
+}
+.brand .footer-link {
+  text-decoration: none !important;
+  color: #2e2d2d !important;
+  font-size: 14px !important;
+}
+
+.footer-link:hover {
+  color: #ff2b85 !important;
+  fill: #ff2b85 !important;
+  transition: all 0.5s ease;
+}
+.brand .footer-link:hover {
+  text-decoration: none !important;
+  cursor: auto;
+  color: #2e2d2d !important;
+  font-size: 14px !important;
+}
+
+.other-country-link {
+  text-decoration: none;
+  color: #9e9a9a;
+}
+.other-color {
+  color: #9e9a9a;
+}
+.other-country-link:hover {
+  color: #ff2b85 !important;
+  fill: #ff2b85 !important;
+  transition: all 0.5s ease;
+}

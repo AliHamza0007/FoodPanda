@@ -1,0 +1,55 @@
+.city-col:hover .city-img {
+  transform: scale(1.05);
+}
+.city-img-text {
+  text-decoration: none;
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+  padding: 10px 20px;
+}
+.city-img {
+  align-items: flex-end;
+  position: absolute;
+  display: flex;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  height: 250px !important;
+  width: 100% !important;
+}
+
+.city-col {
+  height: 250px !important;
+  width: 100% !important;
+}
+
+@media screen and (max-width: 500px) {
+  .city-col {
+    height: 250px !important;
+    width: 100% !important;
+  }
+  .city-img-text {
+    text-decoration: none;
+    position: absolute;
+    bottom: 0%;
+    left: 10px;
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+}
+@media screen and (max-width: 374px) {
+  .city-col {
+    height: 250px !important;
+    width: 100% !important;
+  }
+  .city-img-text {
+    text-decoration: none;
+    position: absolute;
+    bottom: 0%;
+    left: 10px;
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+}

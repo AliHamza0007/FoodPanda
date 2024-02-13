@@ -1,0 +1,38 @@
+.btn-select-tip:active{
+    color: white!important;
+    background-color:#D70F64!important;
+}
+.btn-select-tip:checked{
+    color: white!important;
+    background-color:#D70F64!important;
+}
+.btn-select-tip.selected:hover{
+    color: white!important;
+    background-color:#D70F64!important;
+}
+ .selected{
+    color: white!important;
+    background-color:#D70F64!important;
+}
+.width-600{
+    width: 500px;
+}
+.custom-checkbox {
+    transform: scale(1.7);
+    border-color: #D70F64 !important;  
+  }
+  .custom-checkbox:checked {
+    accent-color: #D70F64;
+  
+  }
+  .place-order-page  .MuiFormLabel-root.Mui-focused {
+    color:rgb(70, 69, 69) !important;
+    background: white; 
+  }
+  .place-order-page  .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color:rgb(70, 69, 69) !important;
+  } 
+  .place-order-page .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+     border-radius: 10px!important;  padding:15px!important;
+  
+  }

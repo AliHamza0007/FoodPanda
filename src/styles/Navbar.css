@@ -1,0 +1,335 @@
+.navLogo {
+  width: 30px;
+  padding: 1px;
+  border-radius: 5px;
+  height: 30px;
+  margin-bottom: 8px;
+  fill: #d70f64 !important;
+}.navbarScroll {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  background-color: white !important;
+}
+
+.foodpanda {
+  font-size: 20.5px;
+  font-family: sans-serif;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+.navbar-toggler-icon {
+  background-image: none !important;
+  color: #d70f64 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 100ms ease;
+}
+
+.navbar-toggler {
+  border: 0 !important;
+}
+.navbar-toggler:focus {
+  border: 0 !important;
+  box-shadow: none !important;
+}
+.collapsing {
+  transition: 1s !important;
+}
+
+.btn-outline-pink {
+  color: #d70f64 !important;
+  border: 1px solid #d70f64 !important;
+  font-weight: 600;
+  padding: 5px 18px;
+  transform: scale(0.9);
+}
+.btn-pink {
+  color: white !important;
+  background: #d70f64 !important;
+  transform: scale(0.9);
+  font-weight: 600;
+  padding: 5px 18px;
+}
+.btn-outline-pink:hover {
+  background-color: #ffe8f1;
+  transform: scale(1);
+}
+.btn-pink:hover {
+  color: white;
+  background: #9e0947 !important;
+  transform: scale(1);
+}
+
+.nav-item.svg {
+  border-radius: 50%;  height:40px;
+  width:40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-item.svg svg {
+  fill: #d70f64 !important;
+  color: #d70f64 !important;
+}
+.nav-item.svg:hover {
+  background-color: #ffe8f1;
+}
+
+.dropdown,
+.dropdown button ,
+.dropdown .dropdown-item{
+  border-radius: 10px;
+}
+/* languageMenu */
+.languageMenu .dropdown-menu button {
+  background-color: #f0ecec;
+  padding: 15px;
+  font-weight: 600;
+}
+.dropdown > button:hover {
+  background-color: #ffe8f1;
+}
+.navbar .languageMenu .dropdown-menu {
+  min-width: 140px !important;
+  left: -20%;
+}
+.navbar .languageMenu .dropdown-menu button:hover {
+  background-color: #ffe8f1;
+}
+.navbar .dropdownBtn.show .fa-angle-down {
+  transform: rotate(180deg);
+  transition: 0.5s;
+}
+.btnCity:hover{
+  background-color: #ffe8f1;
+
+}
+/* userMenu */
+.userMenu .dropdown-menu .dropdown-item {
+
+  padding: 15px;
+  font-weight: 600;
+}
+.dropdown > button:hover {
+  background-color: #ffe8f1;
+}
+.navbar .userMenu .dropdown-menu {
+  min-width: 230px !important;
+}
+.navbar .userMenu .dropdown-menu .dropdown-item:hover {
+  background-color: #ffe8f1;
+}
+.navbar .dropdownBtn.show .fa-angle-down {
+  transform: rotate(180deg);
+  transition: 0.5s;
+}
+.userdropdownIcon{
+  width:30px!important;
+  height:30px!important;
+}
+/* m0dal css start */
+
+.modal-content {
+  width: 400px !important;
+  background-color: rgb(243, 243, 243) !important;
+}
+
+.modal-content .close {
+  position: absolute;
+  right: 20px;
+  background-color: white;
+  border: 2px solid rgb(224, 221, 221) !important;
+
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 0;
+  transform: scale(0.9);
+}
+.modal-content .close:hover {
+  background-color: #ffe8f1;
+  transform: scale(1);
+}
+
+.modal {
+  top: 60% !important;
+  left: 60% !important;
+  transform: translate(-50%, -50%) !important;
+}
+
+.btn-outline-pink-full {
+  display: block;
+  color: #d70f64 !important;
+  border: 1px solid #d70f64 !important;
+  font-weight: 600;
+  padding: 10px;
+  width: 100%;
+}
+.btn-pink-full {
+  color: white !important;
+  background: #d70f64 !important;
+  font-weight: 600;
+  display: block;
+  padding: 10px;
+  width: 100%;
+}
+.btn-outline-pink-full:hover {
+  background-color: #ffe8f1;
+}
+.btn-pink-full:hover {
+  color: white;
+  background: #9e0947 !important;
+}
+.btnBrandIcon {
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.G {
+  width: 20px;
+}
+.btnG {
+  font-weight: 500 !important;
+}
+.btnG:hover {
+  background: rgb(233, 233, 252);
+  border: 1px solid rgb(199, 199, 241) !important;
+}
+
+/* sidebar css */
+.btnClose {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+.sidebar .dropdown-item {
+
+  padding: 10px!important;
+
+  font-weight: 600;
+}
+
+
+.sidebar .dropdown-item:hover {
+  background-color: #ffe8f1;
+
+}
+
+.sidebar {
+  position: fixed;
+  overflow-y: auto;
+  background-color: white;
+  
+  top: 0;
+  opacity: 0;
+  bottom: 0;
+  left: -100%;
+  height: 100% !important;
+  width: 100% !important;
+  z-index: 100;
+  transition: all 1s ease-out;
+}
+
+.Locationtooltip{
+  width:220px;
+  
+  bottom: -75px;;
+  left: 35px;;
+  color:white;
+  font-size:12px;
+  
+  position:absolute;
+  background:#56616A;
+}
+.small-screen .Locationtooltip{
+  width:220px;
+  
+  bottom: -100px;
+  left: 50%!important;
+  transform: translate(-50%,-50%)!important;
+  color:white;
+  font-size:12px;
+  
+  position:absolute;
+  background:#56616A;
+}
+.fa-caret-up{
+  color:#56616A;
+  left: 60px;;
+  bottom:-30px;
+font-size:50px;
+  position:absolute;
+
+}
+.small-screen .fa-caret-up{
+  color:#56616A;
+  left: 50%!important;
+  bottom:-60px;
+  transform: translate(-50%,-50%)!important;
+font-size:50px;
+  position:absolute;
+
+}
+.ToolTip>.hide{
+  display: none;
+  opacity:0;
+}
+.ToolTip> .showTooltip{
+  background: #000;
+  display: block;
+  opacity:1;
+  transition: all 1s ease-in-out;
+}
+.dot-Badge {
+  background: #9e0947 !important;
+  content: '';
+  position: absolute;
+  z-index: 333;
+  right: 8px;
+  border: 2px solid white;;
+  top:13.5px;;
+  height:10px;
+  width: 10px;
+  border-radius: 50%;
+}
+.fs-location{font-size:14px}
+@media screen and (min-width:1024px){
+  .specficRestaurant .nav-item{
+    margin: 5px 0px;
+    margin-right: 10px;
+  }
+}
+@media screen and (min-width:668px){
+.sidebar.active {
+    opacity: 1;
+    width:50%!important;
+    left: 0;
+    transition: all 1s ease-in;
+  }
+  .modal-content {
+    width: 400px !important;
+    background-color: rgb(243, 243, 243) !important;
+  }
+  } @media screen and (max-width:667px){
+  .sidebar.active {
+      opacity: 1;
+      width:100%important;
+      left: 0;
+      transition: all 1s ease-in;
+    }
+    .modal-content {
+      width: 300px !important;
+      background-color: rgb(243, 243, 243) !important;
+    }
+    } @media screen and (max-width:374px){
+.modal{
+  left:50%!important;
+}
+      .modal-content {
+        width: 300px !important;
+        background-color: rgb(243, 243, 243) !important;
+      }
+      } 

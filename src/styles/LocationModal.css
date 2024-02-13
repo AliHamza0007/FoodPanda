@@ -1,0 +1,32 @@
+.location-modal .modal-content{
+    width:600px!important
+}
+.location-modal .locationSearch{
+    width:100%!important;
+}
+.location-modal{
+    top:55%!important
+}
+.location-modal .locationSearch .btn-find-food {
+width:70px!important;
+
+}
+@media screen and (max-width:1023px) {
+       .location-modal{
+        top:60%!important;
+        left:50%!important;
+        transform: translate(-50%,-50%)!important;
+    }
+   
+}
+@media screen and (max-width:767px) {
+    .location-modal .modal-content{
+        width:100%!important
+    }
+  
+    .location-modal{
+        top:68%!important;
+       
+    }
+ 
+}

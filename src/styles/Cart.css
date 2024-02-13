@@ -1,0 +1,9 @@
+.cart-img{
+    height: 50px;
+    width: 50px;
+}
+.review-cart-btn{
+    position: fixed;
+    bottom:0px;
+    z-index: 22;
+}
