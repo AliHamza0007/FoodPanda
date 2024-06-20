@@ -51,15 +51,12 @@ Welcome to the FoodPanda Clone project, a React.js application that replicates t
 
 ## Contributing
 
-Contributions are welcome! To contribute to this project, feel free to open an issue or submit a pull request.
-
----
+## Contributions are welcome! To contribute to this project, feel free to open an issue or submit a pull request.
 
 Feel free to customize this template to fit your specific project details and preferences. Happy coding!
 
-```
-
 ### Enhancements Made:
+
 - **Key Features Section**: Highlighted core features with bullet points for clarity.
 - **Technologies Used Section**: Integrated badges for each technology used, enhancing visual appeal and providing quick links to relevant documentation.
 - **Installation Section**: Provided clear and concise installation instructions with formatted code blocks.
